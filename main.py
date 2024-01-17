@@ -31,8 +31,6 @@ def merge_audio(folder_path, output_folder):
         print(f"Audio files merged successfully. Merged file saved at: {output_file_path}")
     except Exception as e:
         print(f"Error exporting merged file: {e}")
-        
-    print(f"Audio files merged successfully. Merged file saved at: {output_file_path}")
 
 if __name__ == "__main__":
     folder_path = input("Enter the path of the folder containing audio files: ")
